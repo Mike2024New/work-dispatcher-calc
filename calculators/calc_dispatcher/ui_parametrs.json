@@ -1,0 +1,27 @@
+{
+    "ldsp_price_area": {
+        "value": 12000.0,
+        "field_type": "spinbox",
+        "label": "ЛДСП цена за 1 м кв."
+    },
+    "ldsp_name_decor_default": {
+        "value": "Арктика серый",
+        "field_type": "entry",
+        "label": "ЛДСП декор по умолчанию"
+    },
+    "ldsp_thikness_default": {
+        "value": 3.2,
+        "field_type": "spinbox",
+        "label": "ЛДСП толщина столешинц по умолчанию"
+    },
+    "metall_name_decor_default": {
+        "value": "RAL 7047",
+        "field_type": "entry",
+        "label": "Металл цвет по умолчанию"
+    },
+    "show_result_html": {
+        "value": true,
+        "field_type": "checkbutton",
+        "label": "показывать html расчёт"
+    }
+}

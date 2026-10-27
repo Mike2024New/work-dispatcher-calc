@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+
+        /* это для того, чтобы цвета печатались в расчётах */
+        @media print {
+        body {
+            -webkit-print-color-adjust: exact !important;
+            color-adjust: exact !important;
+            }
+        }
+
+
+
+        *{
+            padding: 0;
+            margin: 0;
+            font-family: monospace;
+            font-size: 14px;
+        }
+
+        body{
+            width: 99%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* padding-top: 50px; */
+        }
+
+        h1{
+            font-size: 24px;
+        }
+
+        h2{
+            font-size: 20px;
+            margin: 5px;
+        }
+
+        .price-result{
+            font-size: 20px;
+            color: red;
+        }
+
+        h3{
+            font-size: 16px;
+        }
+
+        ul{
+            margin-left: 5px;
+            padding-left: 13px;
+            /* border-left: 2px gray solid; */
+        }
+
+        li{
+            margin-bottom: 8px;
+            list-style-type: none; /* Убрать стандартные маркеры */
+        }
+
+
+
+        li::before {
+            content: '+'; /* Установить новый маркер */
+            color: gray; /* Установить цвет маркера */
+            padding-right: 10px; /* Добавить отступ от маркера до текста */
+            margin-left: -15px;
+        }
+
+        .art{
+            font-weight: bold;
+            color: blue;
+        }
+
+        .price{
+            font-weight: bold;
+            color: red;
+        }
+
+        .header-price{
+            font-size: 20px;
+            color: red;
+        }
+
+        .block,.block-header{
+            border: 1px solid gray;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            padding: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+        }
+
+        .block-header{
+            background-color: rgb(18, 18, 18);
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="content">
+
+    <!--INSERT-->
+<h1 class='block-header'>Стол диспетчера</h1>
+
+
+
+<div class='block'>
+<h2>модуль стола для диспетчера левый 200:</h2><ul>
+<li><span class='art'>ФЛ-1129</span> Модуль стола левый,200*100*76, RAL 7047.С/с: <span class='price'>184 200</span> руб./шт.</li>
+<li><span class='art'>ФЛ-1629.45</span> Экран настольный модуля левый 200 h=45 см. RAL 7047.С/с: <span class='price'>15 700</span> руб./шт.</li>
+<li><span class='art'>ФЛ-1915</span> Шина монтажная L=190 см.С/с: <span class='price'>11 200</span> руб./шт.</li>
+<li><span class='art'></span> Столешница модуля левого, 200*100*3.2, Арктика серый.С/с: <span class='price'>24 000</span> руб./шт.</li>
+</ul><h3>Итого: <span class='price'>235 100</span> руб./модуль.</h3>
+</div>
+
+<div class='block'>
+<h2>модуль стола для диспетчера промежуточный 200:</h2><ul>
+<li><span class='art'>ФЛ-1161</span> Модуль стола промежуточный,200*100*76, RAL 7047.С/с: <span class='price'>167 800</span> руб./шт.</li>
+<li><span class='art'>ФЛ-1661.45</span> Экран настольный модуля промежуточный 200 h=45 см. RAL 7047.С/с: <span class='price'>12 800</span> руб./шт.</li>
+<li><span class='art'>ФЛ-1916</span> Шина монтажная L=200 см.С/с: <span class='price'>11 800</span> руб./шт.</li>
+<li><span class='art'></span> Столешница модуля промежуточного, 200*100*3.2, Арктика серый.С/с: <span class='price'>24 000</span> руб./шт.</li>
+</ul><h3>Итого: <span class='price'>216 400</span> руб./модуль.</h3>
+</div>
+
+<div class='block'>
+<h2>модуль стола для диспетчера правый 200:</h2><ul>
+<li><span class='art'>ФЛ-1130</span> Модуль стола правый,200*100*76, RAL 7047.С/с: <span class='price'>184 200</span> руб./шт.</li>
+<li><span class='art'>ФЛ-1630.45</span> Экран настольный модуля правый 200 h=45 см. RAL 7047.С/с: <span class='price'>15 700</span> руб./шт.</li>
+<li><span class='art'>ФЛ-1915</span> Шина монтажная L=190 см.С/с: <span class='price'>11 200</span> руб./шт.</li>
+<li><span class='art'></span> Столешница модуля правого, 200*100*3.2, Арктика серый.С/с: <span class='price'>24 000</span> руб./шт.</li>
+</ul><h3>Итого: <span class='price'>235 100</span> руб./модуль.</h3>
+</div><div class='block'>
+<ul>
+<li><span class='art'>ФЛ-1701</span> Опора модуля промежуточная.С/с: <span class='price'>8 300</span> руб./шт. ==> <span class='price'>x2</span> ==> <span class='price'>16 600</span> руб.</li>
+<li><span class='art'>ФЛ-1711.45</span> Стойка экрана промежуточная.С/с: <span class='price'>1 850</span> руб./шт. ==> <span class='price'>x2</span> ==> <span class='price'>3 700</span> руб.</li>
+<li><span class='art'>ФЛ-091</span> Комплект панелей боковых (1 кт. = 2 шт.), Арктика серый.С/с: <span class='price'>18 240</span> руб./шт.</li>
+
+</ul>
+</div>
+<div class='block'>
+<h2>Итоговая себестоимость: <span class='price-result'>725 140</span> руб.</h2>
+</div>
+<div class='block'>
+<h2>Примечания:</h2><ul>
+<li>1.Максимальный вес монитора 8 кг.</li><li>2.Внутренняя глубина технического отсека 350 мм.</li><li>3.В модульных комплектующих детали указаны из расчета на 1 модуль</li><li>4.Знак формата <span style='color:red'>|==>x..</span> в заголовке модуля обозначает количество этих модулей.</li><li>5.В модульных комплектующих (заголовок модуль) детали указаны из расчета на 1 модуль</li><li>6.Знак формата ==><span style='color:red'>x..</span>==> в отображении детали обозначает количество деталей</li><li>7.test+</li>
+</ul>
+</div>
+<!--/INSERT-->
+
+    </div>
+</body>
+</html>
