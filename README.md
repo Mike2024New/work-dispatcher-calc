@@ -28,6 +28,8 @@
 
 Доступен [релиз](https://github.com/Mike2024New/work-dispatcher-calc/releases/download/1.0.0/win_x86_64.zip), вы можете
 запустить его как обычное приложение, и посмотреть руками.
+Презентацию с описанием приложения, можно посмотреть в файле:
+[presentation.pdf](https://github.com/Mike2024New/work-dispatcher-calc/releases/download/1.0.0/presentation.pdf)
 
 ## Стек
 
@@ -40,3 +42,4 @@ Python 3.12, tkinter, SQLite, HTML/CSS.
   коробки» как пример.
 - Проект сохранен в оригинальной редакции лето 2025 (момент моего ухода из компании) с незначительными правками (
   добавлены модули пакета infrastructure2 для более удобного управления путями и сборками).
+- 
